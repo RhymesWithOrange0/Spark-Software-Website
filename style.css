@@ -1,0 +1,52 @@
+.navbar-brand {
+  color: white;
+}
+
+.logo-yellow {
+  filter: invert(69%) sepia(83%) saturate(976%) hue-rotate(8deg) brightness(102%) contrast(103%);
+}
+
+.hero-logo {
+  width: 200px;
+}
+
+@media (min-width: 992px) {
+  .hero-logo {
+    width: 300px;
+  }
+}
+
+.footer-icon {
+  width: 28px;
+  height: 28px;
+  filter: invert(100%);
+}
+
+.brand-icon {
+  width: 28px;
+  height: 28px;
+  filter: none;
+}
+
+.hero-logo-mask {
+  width: 220px;
+  height: 220px;
+  background-color: #ffc107;
+  -webkit-mask-image: url('Spark-Software-Bolt-Logo.png');
+  -webkit-mask-repeat: no-repeat;
+  -webkit-mask-size: contain;
+  -webkit-mask-position: center;
+  mask-image: url('Spark-Software-Bolt-Logo.png');
+  mask-repeat: no-repeat;
+  mask-size: contain;
+  mask-position: center;
+}
+
+@media (min-width: 992px) {
+  .hero-logo-mask { width: 280px; height: 280px; }
+}
+.hero-section {
+  background: radial-gradient(1200px 600px at 85% 20%, rgba(67, 56, 202, 0.25) 0%, rgba(67, 56, 202, 0) 60%),
+              radial-gradient(900px 500px at 80% 60%, rgba(16, 185, 129, 0.18) 0%, rgba(16, 185, 129, 0) 60%),
+              linear-gradient(180deg, #0f141a 0%, #111827 100%);
+}
